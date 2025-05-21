@@ -21,7 +21,6 @@ Permite crear, listar, editar y eliminar juegos, diseñadores, categorías y res
 - Gestión de reseñas y puntuaciones (1 a 5)
 - Subida y visualización de imágenes
 - Interfaz responsive con Bootstrap 5 y Crispy Forms
-- Búsqueda y filtrado de juegos
 - Footer informativo y navegación mejorada
 
 ---
@@ -29,17 +28,18 @@ Permite crear, listar, editar y eliminar juegos, diseñadores, categorías y res
 ## Instalación y uso
 
 1. **Clona el repositorio:**
-   git clone https://github.com/tuusuario/tu-repo.git
-   cd tu-repo
+   `git clone https://github.com/tuusuario/tu-repo.git`
+   `cd tu-repo `
 2. **Crea un entorno virtual y activa:**
-   python -m venv env
-   source env/bin/activate # En Windows: env\Scripts\activate
-3. **Instala dependencias:**
-   pip install -r requirements.txt
-4. **Aplica migraciones y ejecuta:**
-   python manage.py migrate
-   python manage.py runserver
-5. **Accede a la app en:**  
+   `python -m venv env`
+   `source env/bin/activate`
+   `# En Windows: env\Scripts\activate`
+4. **Instala dependencias:**
+   `pip install -r requirements.txt`
+5. **Aplica migraciones y ejecuta:**
+   `python manage.py migrate`
+   `python manage.py runserver`
+6. **Accede a la app en:**  
 [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ---
@@ -65,7 +65,7 @@ _Añade aquí imágenes de la interfaz para mostrar el resultado final._
 
 - Proyecto realizado como ejercicio para el curso **CE_Desarrollo_Python**
 - Desarrollado por **Inés García**  
-- [LinkedIn](https://www.linkedin.com/in/ines-garcia) | [GitHub](https://github.com/tuusuario)
+- [LinkedIn](https://www.linkedin.com/in/ines-garzeta) | [GitHub](https://github.com/PetraZeta)
 
 ---
 
