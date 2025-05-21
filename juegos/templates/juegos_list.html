@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %}Lista de Juegos{% endblock %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <h1 class="mt-5 text-center"><b>{{ rotulo }}</b></h1>
+            <table class="table table-striped mt-4 mb-4 text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>PVP</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for juego in juegos %}
+                    <tr>
+                        <td>{{ juego.nombre }}</td>
+                        <td>{{ juego.descripcion|truncatechars:60 }}</td>
+                        <td>{{ juego.precio }}</td>
+                        <td class="d-flex flex-column gap-2">
+                            <a href="{% url 'detalles_juego' juego.id %}" class="btn btn-info">Ver Detalles</a>
+                            <a href="{% url 'eliminar_juego' juego.id %}" class="btn btn-danger">Eliminar</a>
+                    
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <!-- Botón para agregar un nuevo juego -->
+            <a href="{% url 'nuevo_juego' %}" class="btn btn-success">Agregar Nuevo Juego</a>
+
+        </div>
+    </div>
+
+    
+{% endblock%}
