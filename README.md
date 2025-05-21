@@ -55,12 +55,6 @@ Permite crear, listar, editar y eliminar juegos, diseñadores, categorías y res
 
 ---
 
-## Capturas de pantalla
-
-_Añade aquí imágenes de la interfaz para mostrar el resultado final._
-
----
-
 ## Créditos
 
 - Proyecto realizado como ejercicio para el curso **CE_Desarrollo_Python**
